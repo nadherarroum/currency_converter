@@ -49,6 +49,7 @@
                     android:layout_height="wrap_content"
                     android:buttonTint="#03A9F4"
                     android:text="TUN TO EUR"
+                    android:checked="true"
                     android:textSize="24sp" />
 
                 <RadioButton
@@ -74,7 +75,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/ConvBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#00BCD4"
